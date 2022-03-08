@@ -1,0 +1,290 @@
+@import url("https://use.typekit.net/enh7tnd.css");
+
+/* BRAND COLORS:
+*
+* LAVA: E13200
+* MIDNIGHT: 000110
+* INDIGO: 002A4E
+* MOONROCK: D1D3D4
+* MOONROCK DARK: A3A7A8
+* SAND: F2E8C9
+* SLATE: 405C7D
+* WAVE: 758FAB
+* SKY: B0CCD9
+*
+*/
+
+
+
+html {
+font-size: 16px;
+}
+
+
+
+* {
+font-family: "ff-good-headline-web-pro";
+box-sizing: border-box;
+}
+
+
+
+.widewrapper.main {
+background: #fff;
+margin-bottom: 32px;
+/* padding-top: 32px; */
+}
+
+
+
+br {
+display: none;
+}
+
+
+
+footer .plaincopyright {
+background-color: transparent!important;
+color: #666;
+}
+
+
+
+footer .plaincopyright h6 a{
+color: #e13200;
+}
+
+
+
+/*--------*/
+/* HEADER */
+/*--------*/
+header {
+min-height: 84px;
+}
+
+
+
+header #logo > img {
+max-width: 130px;
+}
+
+
+
+header > .widewrapper {
+height: 100%;
+padding: 0;
+background: #fff !important;
+}
+
+
+
+header .container {
+display: flex;
+align-items: center;
+height: 100%;
+width: 100%;
+background: #fff;
+margin: 0!important;
+}
+
+
+
+header .zt_title {
+margin-left: auto;
+font-size: 1rem;
+font-weight: 600;
+color: #002A4E;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+
+
+/*-------------*/
+/* PANELS FULL */
+/*-------------*/
+.widewrapper.main > .container {
+background: #f2f2f2;
+box-shadow: 0px 0px 30px rgba(64, 92, 125, 0.4);
+}
+
+
+
+.panel {
+border-radius: 0;
+border: 0;
+background: transparent;
+padding: 0;
+margin: 0;
+box-shadow: none;
+}
+
+
+
+/*----------------*/
+/* PANELS HEADING */
+/*----------------*/
+.panel-heading.panels-node-title {
+padding: 15px 0;
+border-radius: 0;
+border: 0;
+background: transparent;
+color: #000110;
+}
+
+
+
+.panel-heading.panels-node-title > .panel-title {
+font-size: 2rem;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.panel-heading.panels-node-title > .panel-title > #node-title {
+font-family: 'ff-good-headline-web-pro-ext';
+}
+
+
+
+/*----------------*/
+/* PANELS CONTENT */
+/*----------------*/
+.zingtree-node .panel-body.panels-node-content .content-only:empty {
+display: none;
+}
+
+
+
+
+/* questions */
+.zingtree-node .panels-node-question {
+margin: 0 -15px;
+background: #f8f8f8;
+}
+
+
+
+.zingtree-node .panels-node-question .answers .list-group-item {
+border: 0;
+padding: 12px 15px;
+background: transparent;
+color: #000110;
+font-family: "ff-good-headline-web-pro";
+font-weight: 400;
+font-size: 1.25rem;
+}
+
+
+
+.zingtree-node .panels-node-question .answers .list-group-item:hover {
+background: #e8e8e8;
+}
+
+
+
+.zingtree-node .panels-node-question #question_area .list-group-item-question {
+background: transparent;
+border: 0;
+color: #000110;
+}
+
+
+
+.zingtree-node .panels-node-question #question_area .list-group-item-question i {
+display: none;
+}
+
+
+
+.zingtree-node .panels-node-question #question_area .list-group-item-question #node-question {
+font-weight: 600!important;
+font-size: 1.5rem;
+}
+
+
+
+/*------------*/
+/* BREADCRUMB */
+/*------------*/
+.widewrapper.main > .container > .row:first-child {
+background: #fafafa;
+}
+.breadcrumb {
+background: transparent;
+margin: 0;
+padding: 0;
+line-height: 48px;
+border-radius: 0;
+}
+
+
+
+.breadcrumb a {
+padding: 0;
+font-family: "ff-good-headline-web-pro";
+color: #405C7D;
+}
+
+
+
+.breadcrumb a:hover {
+color: #758FAB;
+text-decoration: none;
+}
+
+
+
+.breadcrumb > li {
+color: #405C7D;
+}
+
+
+
+.breadcrumb > li+li:before {
+content: ">";
+color: #666;
+}
+
+
+
+.breadcrumb > li:last-child {
+font-weight: 600;
+font-family: "ff-good-headline-web-pro";
+color: #e13200;
+}
+
+
+
+/*---------*/
+/* BUTTONS */
+/*---------*/
+.persistent-buttons {
+display: flex;
+align-items: center;
+}
+.persistent-buttons .btn {
+margin: 16px 8px 16px 0!important;
+}
+
+
+
+#back_button, #restart_button {
+font-size: 1.25rem;
+font-weight: 600;
+font-family: "ff-good-headline-web-pro";
+border-radius: 0;
+border: 1px solid #e13200;
+background: transparent;
+text-transform: uppercase;
+padding: 8px 24px;
+color: #e13200;
+transition: 0.1s;
+}
+
+
+
+#back_button:hover, #restart_button:hover {
+color: white;
+background: #e13200;
+}
